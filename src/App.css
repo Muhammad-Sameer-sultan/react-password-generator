@@ -1,0 +1,125 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root{
+  --sky-blue: #8ecae6ff;
+--blue-green: rgb(42, 172, 204);
+--prussian-blue: rgb(66, 40, 182);
+--selective-yellow: #ffb703ff;
+--ut-orange: #fb8500ff;
+}
+body{
+  background: var(--blue-green);
+}
+.main-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #000; */
+}
+.inner{
+  margin: 1rem;
+  background: var(--prussian-blue);
+  color: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 0.5rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  /* width: 30%; */
+  max-width : 420px ;
+  box-shadow: 0 0 0.5rem #555;
+}
+
+.header h2{
+  font-size: 2rem;
+}
+
+.password-box{
+  margin: 2rem 0;
+  /* padding: 0.5rem; */
+  background: #ffff;
+  /* margin: 0.5rem 0; */
+  color: var(--selective-yellow);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.password-box input{
+  /* overflow-x: scroll; */
+  width: 100%;
+  padding: 0.3rem;
+  font-size: 1.3rem;
+
+}
+.password-box button{
+position: absolute;
+right: 4px;
+border: none;
+
+}
+.password-box i{
+  font-size: 1.8rem;
+  /* border: none; */
+  /* color: var(--selective-yellobl); */
+  /* outline: none; */
+
+}
+.body{
+  /* justify-content: space-between; */
+  /* width: 100%; */
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 2rem;
+  width: 100%;
+  
+}
+.passwordLength{
+  width: 3.5rem;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+.range{
+  
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+.add-func{
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  font-weight: 600;
+}
+.main-btn{
+  background: var(--ut-orange);
+  color: white;
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+  border: 1px solid var(--ut-orange);
+}
+
+.main-btn:hover{
+  background: white;
+  color: var(--ut-orange);
+  border: 1px solid white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 420px){
+  html{
+    font-size: 75%;
+  }
+}

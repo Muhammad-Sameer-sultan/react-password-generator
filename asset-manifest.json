@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Muhammad-Sameer-sultan/react-password-generator.git/static/css/main.fcf9fa82.css",
+    "main.js": "/Muhammad-Sameer-sultan/react-password-generator.git/static/js/main.129868eb.js",
+    "static/js/787.7da6eb2c.chunk.js": "/Muhammad-Sameer-sultan/react-password-generator.git/static/js/787.7da6eb2c.chunk.js",
+    "index.html": "/Muhammad-Sameer-sultan/react-password-generator.git/index.html",
+    "main.fcf9fa82.css.map": "/Muhammad-Sameer-sultan/react-password-generator.git/static/css/main.fcf9fa82.css.map",
+    "main.129868eb.js.map": "/Muhammad-Sameer-sultan/react-password-generator.git/static/js/main.129868eb.js.map",
+    "787.7da6eb2c.chunk.js.map": "/Muhammad-Sameer-sultan/react-password-generator.git/static/js/787.7da6eb2c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fcf9fa82.css",
+    "static/js/main.129868eb.js"
+  ]
+}
